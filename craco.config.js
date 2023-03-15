@@ -18,6 +18,22 @@ module.exports = {
       },
     },
   ],
+  babel: {
+    plugins: [
+      /**
+       * AntDesign 按需加载
+       */
+      [
+        "babel-plugin-import",
+        {
+          libraryName: "antd",
+          libraryDirectory: "es",
+          style: true,
+        },
+        "antd",
+      ],
+    ],
+  },
   webpack: {
     plugins: {
       add: process.env.ANALYZER_ENV ? [new BundleAnalyzerPlugin()] : [],
