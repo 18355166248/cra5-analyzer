@@ -10,7 +10,7 @@
     "@types/node": "^16.18.16",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
-    "@xmly/mi-design": "^0.1.9",
+    "@xmly/mi-design": "^0.2.0",
     "antd": "4.24.7",
     "classnames": "2.3.2",
     "lodash-es": "4.17.0",
@@ -50,6 +50,7 @@
     "@types/lodash-es": "^4.17.7",
     "babel-plugin-import": "^1.13.6",
     "craco-less": "^2.0.0",
+    "cross-env": "^7.0.3",
     "webpack-bundle-analyzer": "^4.8.0"
   }
 }

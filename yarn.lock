@@ -2486,10 +2486,10 @@
     "@webassemblyjs/ast" "1.11.1"
     "@xtuc/long" "4.2.2"
 
-"@xmly/mi-design@^0.1.9":
-  version "0.1.9"
-  resolved "http://xnpm.ximalaya.com/@xmly/mi-design/download/@xmly/mi-design-0.1.9.tgz#01e106ffd47316002bdd5705e99ae885469c339f"
-  integrity sha1-AeEG/9RzFgAr3VcF6ZrohUacM58=
+"@xmly/mi-design@^0.2.0":
+  version "0.2.0"
+  resolved "http://xnpm.ximalaya.com/@xmly/mi-design/download/@xmly/mi-design-0.2.0.tgz#2521ddbb1164d5df58af9028a439e2fd220ad8d0"
+  integrity sha1-JSHduxFk1d9Yr5AopDni/SIK2NA=
   dependencies:
     "@babel/runtime" "^7.20.7"
 

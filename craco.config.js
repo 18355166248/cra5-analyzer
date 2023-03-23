@@ -11,7 +11,7 @@ module.exports = {
           lessOptions: {
             modifyVars: {
               "@mi-prefix": "jiang",
-              "@primary-color": "pink", // 全局主色
+              "@primary-color": "#1890ff", // 全局主色
             },
             javascriptEnabled: true,
           },
