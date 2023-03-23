@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@craco/craco": "^7.1.0",
+    "@types/lodash-es": "^4.17.7",
     "babel-plugin-import": "^1.13.6",
     "craco-less": "^2.0.0",
     "webpack-bundle-analyzer": "^4.8.0"

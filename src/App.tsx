@@ -1,12 +1,12 @@
 import "./App.css";
+import IsFunctionComp from "./pages/IsFunctionComp";
 import MiDesign from "./pages/MiDesign";
-import MiDesignCopy from "./pages/MiDesignCopy";
 
 function App() {
   return (
     <div className="App">
       <MiDesign />
-      <MiDesignCopy />
+      <IsFunctionComp />
     </div>
   );
 }

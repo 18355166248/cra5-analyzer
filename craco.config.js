@@ -32,6 +32,18 @@ module.exports = {
         },
         "antd",
       ],
+      [
+        "babel-plugin-import",
+        {
+          libraryName: "@xmly/mi-design",
+          libraryDirectory: "es",
+          customName: (name, file) => {
+            console.log(file.opts.filename, name);
+            return `@xmly/mi-design/dist/components/common/${name}`;
+          },
+        },
+        "@xmly/mi-design",
+      ],
     ],
   },
   webpack: {

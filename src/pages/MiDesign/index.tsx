@@ -1,6 +1,5 @@
 import React, { FC, useState } from "react";
-import { CheckedButton, Menu } from "@xmly/mi-design";
-import { items } from "./data";
+import { CheckedButton } from "@xmly/mi-design";
 import BtnList from "./BtnList";
 
 interface Props {}
@@ -21,13 +20,13 @@ const MiDesign: FC<Props> = () => {
           { label: "安徽", value: 3 },
         ]}
       />
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      {/* <div style={{ display: "flex", justifyContent: "center" }}>
         <Menu
           items={items}
           onChange={onChangeMenu}
           selectedKeys={selectedKeys}
         />
-      </div>
+      </div> */}
       <BtnList />
     </div>
   );
