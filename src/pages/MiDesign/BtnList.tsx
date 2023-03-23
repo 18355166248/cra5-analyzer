@@ -47,10 +47,10 @@ export default () => {
   ];
   return (
     <>
-      <ActionList columns={list} max={1} />
-      <ActionList columns={list} max={2} />
-      <ActionList columns={list} max={3} />
-      <ActionList columns={list} max={4} />
+      <ActionList prefixCls="jiang" columns={list} max={1} />
+      <ActionList prefixCls="jiang" columns={list} max={2} />
+      <ActionList prefixCls="jiang" columns={list} max={3} />
+      <ActionList prefixCls="jiang" columns={list} max={4} />
     </>
   );
 };

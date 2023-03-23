@@ -14,6 +14,7 @@ const MiDesign: FC<Props> = () => {
   return (
     <div style={{ padding: 20 }}>
       <CheckedButton
+        prefixCls="jiang"
         options={[
           { label: "北京", value: 1 },
           { label: "上海", value: 2 },

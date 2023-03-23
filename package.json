@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "analyzer": "ANALYZER_ENV=true craco start",
+    "analyzer": "cross-env ANALYZER_ENV=true craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"

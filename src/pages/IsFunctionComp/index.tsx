@@ -15,6 +15,7 @@ const IsFunctionComp: FC<Props> = () => {
   return (
     <div>
       <CheckedButton
+        prefixCls='jiang'
         onChange={(val) => (val[0] === 1 ? setState(undefined) : setState(222))}
         options={[{ label: "开关", value: 1 }]}
       />

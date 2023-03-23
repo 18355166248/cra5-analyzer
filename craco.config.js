@@ -10,7 +10,8 @@ module.exports = {
         lessLoaderOptions: {
           lessOptions: {
             modifyVars: {
-              "@primary-color": "#1DA57A",
+              "@mi-prefix": "jiang",
+              "@primary-color": "pink", // 全局主色
             },
             javascriptEnabled: true,
           },
@@ -37,10 +38,11 @@ module.exports = {
         {
           libraryName: "@xmly/mi-design",
           libraryDirectory: "es",
-          customName: (name, file) => {
-            console.log(file.opts.filename, name);
+          camel2DashComponentName: false, // 避免 customName 和拼接参数格式化成驼峰
+          customName: (name) => {
             return `@xmly/mi-design/dist/components/common/${name}`;
           },
+          style: (path) => `${path}/style/index.less`,
         },
         "@xmly/mi-design",
       ],
