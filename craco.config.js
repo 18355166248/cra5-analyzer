@@ -38,7 +38,7 @@ module.exports = {
         {
           libraryName: "@xmly/mi-design",
           libraryDirectory: "es",
-          camel2DashComponentName: false, // 避免 customName 和拼接参数格式化成驼峰
+          camel2DashComponentName: false, // 避免 customName 和拼接参数格式化成小写拼接格式
           customName: (name) => {
             return `@xmly/mi-design/dist/components/common/${name}`;
           },

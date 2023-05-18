@@ -1,6 +1,7 @@
 import React, { FC, useState } from "react";
 import { CheckedButton } from "@xmly/mi-design";
 import BtnList from "./BtnList";
+import FilterForm from "./FilterFormLayout";
 
 interface Props {}
 
@@ -29,6 +30,7 @@ const MiDesign: FC<Props> = () => {
         />
       </div> */}
       <BtnList />
+      <FilterForm />
     </div>
   );
 };
