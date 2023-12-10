@@ -68,9 +68,14 @@ module.exports = {
             name: "antd",
             chunks: "all",
           },
-          "mi-design": {
-            test: /[\\/]node_modules[\\/](mi-design)[\\/]/,
-            name: "mi-design",
+          "@xmly/mi-design": {
+            test: /[\\/]node_modules[\\/](@xmly\/mi-design)[\\/]/,
+            name: "@xmly/mi-design",
+            chunks: "all",
+          },
+          "@xmly/checkstand": {
+            test: /[\\/]node_modules[\\/](@xmly\/checkstand)[\\/]/,
+            name: "@xmly/checkstand",
             chunks: "all",
           },
         },
