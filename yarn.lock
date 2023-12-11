@@ -2587,10 +2587,10 @@
   resolved "http://xnpm.ximalaya.com/@xmly/binary-report/download/@xmly/binary-report-1.0.2-alpha.2.tgz#5074aee24244a2f98cc64f2a528bda76f408af5d"
   integrity sha1-UHSu4kJEovmMxk8qUovadvQIr10=
 
-"@xmly/checkstand@^0.44.29":
-  version "0.44.29"
-  resolved "http://xnpm.ximalaya.com/@xmly/checkstand/download/@xmly/checkstand-0.44.29.tgz#ef53a50aaf2ba96e0586fa6b39a94948ca87e4ec"
-  integrity sha1-71OlCq8rqW4FhvprOalJSMqH5Ow=
+"@xmly/checkstand@^0.44.31":
+  version "0.44.31"
+  resolved "http://xnpm.ximalaya.com/@xmly/checkstand/download/@xmly/checkstand-0.44.31.tgz#81ede2b269d673b26667ac3fc9f14b9ea83ff866"
+  integrity sha1-ge3ismnWc7JmZ6w/yfFLnqg/+GY=
   dependencies:
     "@react-spring/web" "^9.7.3"
     "@xmly/get-ec-ticket-sdk" "^0.0.7"
